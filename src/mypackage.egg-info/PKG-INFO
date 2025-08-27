@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: mypackage
+Version: 0.1.0
+Summary: A small package for data analysis and visualization.
+Author: Sara Zhara
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: license-file
+
+# MyPackage
+
+## Introduction
+This package provides simple tools for analyzing and visualizing numeric data.
+
+## Installation
+To install locally:
+```bash
+pip install -e .
+
+from mypackage import DataAnalyzer, DataVisualizer
+data = [1,2,3,4]
+analyzer = DataAnalyzer(data)
+print(analyzer.mean())
+
+MIT
